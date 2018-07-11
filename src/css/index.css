@@ -1,0 +1,489 @@
+.tzl_yougou{
+    height: 100%;
+    width: 100%;
+}
+/* 头部部分样式 */
+.navLan{
+    border-bottom:3px solid #000;
+}
+.top_nav{
+    border: 1px solid #ccc;
+    background: #F3F3F5;
+}
+.top_nav .w{
+    height: 30px;
+}
+.top_nav .top_navtl li{
+    border-right:1px solid #ccc;
+    font-size:14px;
+}
+.top_nav .top_navtl li:hover a{
+    color:#E60012;
+}
+.top_nav .top_navtr li:hover a{
+    color:#E60012;
+}
+.navLan li:hover{
+    color:red;
+}
+.navLan .nav_right:hover{
+    color:red;
+}
+.navLan .nav_left .nav_leftul>li:nth-child(5){
+    color:red;
+}
+.top_nav .top_navtl li:nth-child(1){
+    border-left:1px solid #ccc;
+    background:#fff;
+}
+.top_nav .top_navt li{
+    text-align:center;
+    line-height:20px;
+    padding:5px;
+  
+}
+.aboutuser{
+    padding:5px;
+}
+.aboutuser span{
+    display:inline-block;
+    line-height:20px;
+    width:50px;
+    color: #E60012;
+}
+.aboutuser span:nth-child(2){
+    border-right:1px solid #ccc;
+}
+.top_navtl li a{
+    display:block;
+    width: 98px;
+    color:#666666;
+}
+.top_navtr li a{
+    padding:8px;
+    color:#666666;
+}
+
+
+/* 搜索部分 */
+
+.logo_tab .w{
+    height: 126px;
+    box-sizing:border-box;
+    padding-top:22px;
+    padding-bottom:15px;
+}
+.logo_tab .logo_c{
+    width: 700px;
+    height:90px;
+   
+}
+.logo_tab .logo_c .logo_ct{
+    width: 500px;
+    height: 34px;
+    border:1px solid #000;
+    margin: 0 auto;  
+}
+.logo_tab .logo_c .logo_cb{
+    padding-left:96px;
+    padding-top:16px;
+  
+}
+.logo_tab .logo_c .logo_cb li a{
+    color: #666681;
+    font-size:14px;
+    padding:2px;
+}
+.logo_tab .logo_c .logo_cb li:hover a{
+    color:red;
+}
+.logo_tab .logo_c .logo_ct input{
+    width: 416px;
+    height: 34px;
+}
+.logo_tab .logo_c .logo_ct button{
+    height: 34px;
+    width: 82px;
+    color:#fff;
+    background:#000;
+}
+
+.logo_r .logo_rl{
+    border:1px solid #ccc;
+    padding:8px;
+}
+.logo_r .logo_rl span>span{
+    color:red;
+}
+
+
+
+
+
+
+/*导航部分*/
+
+.navLan .w{
+    height:40px;
+    line-height:20px;
+    font-size:18px;
+    position: relative;
+}
+.navLan li{
+    text-align: center;
+    padding:10px;
+    color:#000;
+    font-weight:bold;
+    font-size:20px;
+}
+.navLan .nav_left .nav_leftul>li:nth-child(5){
+    color:red;
+}
+.nav_right{
+    color:#000;
+    line-height:40px;
+    font-weight:bold;
+    font-size:20px;
+}
+.navLan .fristNavLi{
+    position: relative;
+    width: 180px;
+    background: #000000;
+    color:#fff;
+    
+}
+.navLan .fristNavLi >ul{
+    position: absolute;
+    top:40px;
+    left:0;
+    color:#1a1a1a;
+    border:1px solid #6a6a6a;
+    width:198px;
+   
+}
+.navLan .fristNavLi >ul li{
+    font-size:14px;
+}
+
+/* 轮播图 */
+.bannerbox{
+    width: 990px;
+    height: 480px;
+    overflow: hidden;
+}
+
+/*轮播图样式*/
+.bannerbox .banner {
+    display: inline-block;
+}
+#banner1{
+    position: relative;
+}
+
+
+/*banner的长宽根据图片大小设置*/
+
+.banner {
+    position: relative;
+    top: 0;
+    margin: 0px auto;
+    width: 990px;
+    height: 480px;
+    display: block;
+}
+
+.banner .move {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.banner .move img{
+    display: block;
+}
+.move ul,
+.move ul li {
+    position: absolute;
+}
+
+.ctrl {
+    position: absolute;
+    width: 100%;
+    bottom: -30px;
+    text-align: center;
+}
+
+.ctrl .libs {
+    display: inline-block;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+    z-index: 50;
+    cursor: pointer;
+}
+
+.ctrl span.active {
+    background-color: #fff;
+}
+
+.ctrl .arrow {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 60px;
+    top: 50%;
+    margin-top: -30px;
+    background-color: #333;
+    cursor: pointer;
+    font: 30px/58px "宋体";
+    opacity: .5;
+    color: #fff;
+    text-align: center;
+}
+
+.ctrl .next {
+    top: -240px;
+    right: 0;
+}
+
+.ctrl .prev {
+    top: -240px;
+    left: 0;
+}
+
+.ctrl .arrow:hover {
+    opacity: 1;
+}
+
+
+/* <!--热门品牌 HOT BRAND--> */
+.hot_t{
+    height:36px;
+    padding-top:30px;
+    border-bottom:3px solid #000;
+    line-height:36px;
+    font-size:18px;
+}
+.hot_t span:nth-child(1){
+    color:#000;
+    font-weight:bold;
+    padding-right:10px;
+    font-size:20px;
+}
+.hot_brand .hot_brand_c{
+    padding:24px 0 24px 24px;
+    border: 1px #d1d3d4 solid;
+}
+.hot_brand .hot_brand_c>li{
+    display: list-item;    
+    text-align: -webkit-match-parent;
+    padding-right:24px;
+}
+.logo_pinpai{
+    margin-top:40px;
+}
+
+
+
+
+/* 女鞋馆WOMEN'S SHOES*/
+.women .women_t{
+    height:35px;
+    margin-top:38px;
+    line-height:35px;
+    border-bottom:3px solid #000;
+    font-size:18px;
+    color:#000;
+}
+.women_t span:nth-child(1){
+   
+    font-weight:bold;
+    padding-right:10px;
+    font-size:20px;
+}
+.women .women_ts{
+    height: 35px;
+    width: 116px;
+    color:#fff;
+    background: #000;
+    text-align: center;
+}
+.women .women_b{
+    height: 478px;
+    padding: 22px 24px 22px 12px;
+    box-sizing:border-box;
+    border: 1px #d1d3d4 solid;
+    
+}
+.women .women_bl{
+    width: 200px;
+    height: 430px;
+    padding-right:12px;
+}
+.women .women_bl ul{
+    width: 200px;
+    height: 360px;
+}
+.women .women_bl ul li{
+    padding-top: 16px;
+    padding-right:10px;
+}
+.women .women_bc{
+    width: 360px;
+}
+.women .women_br{
+    width: 558px;
+}
+
+.women_brli div{
+    border-bottom:2px solid #ccc;
+}
+.women_brli div img{
+    display: block;
+    float: left;
+}
+
+/* <!-- 特卖专区 --> */
+.zhuanqu h5{
+    height:35px;
+    margin-top:38px;
+    line-height:35px;
+    border-bottom:3px solid #000;
+    font-size:18px;
+    color:#000;
+    font-weight:bold;
+}
+.temai .w{
+    height: 360px;
+    border:1px solid #ccc;
+}
+.temai .temai_lb ul{
+    width: 212px;
+}
+.temai .temai_lb li{
+    width: 202px;
+    height:40px;
+    border:1px solid #D1D3D4;
+    line-height:40px;
+    padding-left:10px;
+    font-size:16px;
+    color:#666666;
+    font-weight:bold;
+}
+.temai .temai_lr{
+    width:960px;
+    padding:16px 8px;
+}
+.temai .temai_lr li{
+    height:200;
+    width: 200px;
+    padding-right:40px;
+}
+.temai .temai_lr li img{
+    width: 232px;
+    height:238;
+    border:1px solid #ccc;
+}
+
+
+
+/* 优购导购 */
+.daogou h5{
+    height:35px;
+    margin-top:38px;
+    line-height:35px;
+    border-bottom:3px solid #ccc;
+    font-size:18px;
+    color:#666;
+    font-weight:bold;
+}
+
+.yougou .w{
+    border:1px solid #ccc;
+    height: 380px;
+}
+.yougou .yougou_logo .yougou_logopp{
+    padding:0 24px;
+    height: 168px;
+}
+.yougou .yougou_logo .yougou_logopp img{
+    border:1px solid #ccc;
+}
+.yougou .yougou_logoxi li{
+    width: 570px;
+    height: 43px;
+    font-size:16px;
+    line-height:43px;
+    
+   
+}
+.yougou .yougou_logoxi li div{
+    border-bottom:1px dashed #ccc;
+    margin-left:26px;
+
+}
+.yougou .yougou_logoxi li a{
+    padding-right:20px;
+    color:#000;
+}
+
+/* footer */
+.footer {
+    width: 94%;
+    margin: 0 auto;
+    background: #eee;
+}
+
+.foodterTitle {
+    border: 1PX solid #ddd;
+}
+
+.foodterTitle li {
+    width: 22%;
+    padding-left: 2%;
+}
+
+.foodterTitle li span {
+
+    height: 38px;
+    line-height: 38px;
+    color: red;
+
+}
+
+.foodterTitle li span i {
+    color: #6a6a6a;
+}
+
+.foodterList .lisItem {
+    font-size: 12px;
+
+    width: 12%;
+    /* text-align: center; */
+    color: #6a6a6a;
+
+}
+
+.foodterList .lisItem ul li:first-child {
+    color: #1a1a1a;
+}
+
+.lisItem {
+    padding: 10px;
+}
+.dibuss{
+    padding:15px 50px;
+    background: #000;
+    color:#fff;
+    font-size:12px;
+}
+.dibt{
+    text-align: right;
+}
+.yougouLogo{
+    transform: translateY(-20px);
+}

@@ -1,0 +1,3 @@
+1.给项目文件建一个端口为88service
+2.在js文件夹的httpclient.js  第二行有一个公共路径
+3.在common.js 的最后有个公共路径

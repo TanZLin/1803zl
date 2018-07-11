@@ -1,0 +1,364 @@
+.tzl_yougou{
+    height: 100%;
+    width: 100%;
+}
+/* 头部部分样式 */
+.top_nav{
+    border: 1px solid #ccc;
+    background: #F3F3F5;
+}
+.top_nav .w{
+    height: 30px;
+}
+.top_nav .top_navtl li{
+    border-right:1px solid #ccc;
+    font-size:14px;
+}
+.top_nav .top_navtl li:hover a{
+    color:#E60012;
+}
+.top_nav .top_navtr li:hover a{
+    color:#E60012;
+}
+.top_nav .top_navtl li:nth-child(1){
+    border-left:1px solid #ccc;
+    background:#fff;
+}
+.top_nav .top_navt li{
+    text-align:center;
+    line-height:20px;
+    padding:5px;
+  
+}
+.aboutuser{
+    padding:5px;
+}
+.aboutuser span{
+    display:inline-block;
+    line-height:20px;
+    width:50px;
+    color: #E60012;
+}
+.aboutuser span:nth-child(2){
+    border-right:1px solid #ccc;
+}
+.top_navtl li a{
+    display:block;
+    width: 98px;
+    color:#666666;
+}
+.top_navtr li a{
+    padding:8px;
+    color:#666666;
+}
+
+
+/* 搜索部分 */
+.logo_tab .w{
+    height: 126px;
+    box-sizing:border-box;
+    padding-top:22px;
+    padding-bottom:15px;
+}
+.logo_tab .logo_c{
+    width: 700px;
+    height:90px;
+   
+}
+.logo_tab .logo_c .logo_ct{
+    width: 500px;
+    height: 34px;
+    border:1px solid #000;
+    margin: 0 auto;  
+}
+.logo_tab .logo_c .logo_cb{
+    padding-left:96px;
+    padding-top:16px;
+  
+}
+.logo_tab .logo_c .logo_cb li a{
+    color: #666681;
+    font-size:14px;
+    padding:2px;
+}
+.logo_tab .logo_c .logo_cb li:hover a{
+    color:red;
+}
+.logo_tab .logo_c .logo_ct input{
+    width: 416px;
+    height: 34px;
+}
+.logo_tab .logo_c .logo_ct button{
+    height: 34px;
+    width: 82px;
+    color:#fff;
+    background:#000;
+}
+
+.logo_r .logo_rl{
+    border:1px solid #ccc;
+    padding:8px;
+}
+.logo_r .logo_rl span>span{
+    color:red;
+}
+
+
+
+
+
+
+/*导航部分*/
+.navLan{
+    border-bottom:3px solid #000;
+}
+.navLan .w{
+    height:40px;
+    line-height:20px;
+    font-size:18px;
+    position: relative;
+}
+.navLan li{
+    text-align: center;
+    padding:10px;
+    color:#000;
+    font-weight:bold;
+    font-size:20px;
+}
+.navLan li:hover{
+    color:red;
+}
+.navLan .nav_right:hover{
+    color:red;
+}
+.navLan .nav_left .nav_leftul>li:nth-child(5){
+    color:red;
+}
+.nav_right{
+    color:#000;
+    line-height:40px;
+    font-weight:bold;
+    font-size:20px;
+}
+.navLan .fristNavLi{
+    position: relative;
+    width: 180px;
+    background: #000000;
+    color:#fff;
+    
+}
+.navLan .fristNavLi >ul{
+    position: absolute;
+    top:40px;
+    left:0;
+    color:#1a1a1a;
+    border:1px solid #6a6a6a;
+    width:198px;
+   
+}
+.navLan .fristNavLi >ul li{
+    font-size:14px;
+}
+.navLan .fristNavLi >ul{
+    display:none;
+}
+
+
+
+
+/* list */
+.genre .genre_t{
+    height:24px;
+    line-height:24px;
+    padding:16px 16px;
+    color: #666;
+    font-size:14px;
+}
+.genre .genre_t a{
+    color: #666;
+}
+.genre .genre_c{
+    height:40px;
+    line-height:40px;
+    border: 1px solid #ddd;
+    padding:0 10px;
+    margin:10px 0;
+}
+/* .genre .genre_c span{
+    width: 50px;
+    height: 24px;
+    border:1px solid #ccc;
+} */
+.genre_cl label{
+    font-size:14px;
+    font-weight:bold;
+    color:#6a6a6a;
+}
+.genre_cl input,button{
+    width: 50px;
+    height: 24px;
+    border:1px solid #ccc;
+}
+.genre_cl span{
+    display:inline-block;
+    background: #ddd;
+    width: 50px;
+    height: 24px;
+    border:1px solid #ccc;
+    text-align:center;
+    line-height:24px;
+    margin:8px 4px 0 4px;
+
+}
+.genre_c .genre_cr div{
+    font-size:14px;
+}
+.genre_c .genre_cr div span:nth-child(1){
+    font-size:14px;
+    color:#E60012;
+}
+.genre_c .genre_cr div span:nth-child(2){
+    margin-left:20px;
+}
+.genre_c .genre_cr div span:nth-child(3){
+   width: 70px;
+   height: 24px;
+   border:1px solid #ccc;
+   text-align:center;
+   margin-top:10px;
+   line-height:24px;
+   margin:10px 0 0 20px;
+}
+.genre .list{
+    background: #fff;
+}
+.genre .list li{
+    padding-right:6px;
+}
+.genre .list img{
+    height: 240px;
+    width: 230px;
+}
+.genre .list ul li img{
+    border:1px solid #ccc;
+}
+.genre .list ul .price span:nth-child(1){
+    font-size:18px;
+    color: #FF5000;
+    padding-right:10px;
+}
+.genre .list ul .price span:nth-child(2){
+    text-decoration:line-through;
+}
+.genre .list ul .discou{
+    height: 16px;
+    line-height:16px;
+    color: #fff;
+    font-weight:bold;
+    background: #F0A1A1;
+    padding-left:6px;
+}
+
+/* 优购导购 */
+.daogou h5{
+    height:50px;
+    line-height:35px;
+    border-bottom:3px solid #ccc;
+    font-size:18px;
+    color:#666;
+    font-weight:bold;
+}
+
+.yougou .w{
+    border:1px solid #ccc;
+    height:360px;
+}
+.yougou .yougou_logo .yougou_logopp{
+    padding:0 24px;
+    height: 160px;
+    margin-top:10px;
+    
+}
+
+.yougou .yougou_logo .yougou_logopp img{
+    border:1px solid #ccc;
+}
+.yougou .yougou_logoxi li{
+    width: 570px;
+    height: 43px;
+    font-size:16px;
+    line-height:43px;
+    
+   
+}
+.yougou .yougou_logoxi li div{
+    border-bottom:1px dashed #ccc;
+    margin-left:26px;
+
+}
+.yougou .yougou_logoxi li a{
+    padding-right:20px;
+    color:#000;
+}
+
+
+
+
+
+/* footer */
+
+.footer {
+    width:94%;
+    margin: 0 auto;
+    background: #eee;
+}
+
+.foodterTitle {
+    border: 1PX solid #ddd;
+}
+
+.foodterTitle li {
+    width: 22%;
+    padding-left: 2%;
+}
+
+.foodterTitle li span {
+
+    height: 38px;
+    line-height: 38px;
+    color: red;
+
+}
+
+.foodterTitle li span i {
+    color: #6a6a6a;
+}
+
+.foodterList .lisItem {
+    font-size: 12px;
+
+    width: 12%;
+    /* text-align: center; */
+    color: #6a6a6a;
+
+}
+
+.foodterList .lisItem ul li:first-child {
+    color: #1a1a1a;
+}
+
+.lisItem {
+    padding: 10px;
+}
+.dibuss{
+    padding:15px 50px;
+    background: #000;
+    color:#fff;
+    font-size:12px;
+}
+.dibt{
+    text-align: right;
+}
+.yougouLogo{
+    transform: translateY(-20px);
+}

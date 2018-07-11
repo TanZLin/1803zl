@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <link rel="stylesheet" href="./css/reg.css">
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/httpclient.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/reg.js"></script>
+
+</head>
+
+<body>
+    <!-- 注册页面 -->
+    <div class="login">
+        <!-- 头部部分 -->
+        <div class="top_nav">
+            <div class="w">
+                <div class="cf top_navt">
+                    <ul class="cf fl top_navtl">
+                        <li class="fl">
+                            <a href="">时尚商城</a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <i class="iconfont icon-shouji"></i>手机优购</a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <i class="iconfont icon-daodiantiyan"></i>体验新版</a>
+                        </li>
+                    </ul>
+                    <ul class="cf fr top_navtr">
+                        <div class="fl aboutuser">
+                            <span>登陆</span>
+                            <span>注册</span>
+                        </div>
+                        <li class="fl">
+                            <a href="">我的优购
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">我的订单
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">公告
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">更多
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="w zhuce cf">
+            <img src="./images/yg.png" alt="" class="fl">
+            <span class="fl">新用户注册</span>
+        </div>
+
+        <div class="zhuce_d cf">
+            <div id="emailDiv" class="nreg_left fr" style="margin-top: 12px">
+                <ul class="tab_sig_reg cf">
+                    <li class="tab_sig">
+                        <a href="#"></a>登录</a>
+                    </li>
+                    <li class="tab_reg tab_cur">
+                        <a href="#">注册</a>
+                    </li>
+                </ul>
+                <div class="zc_b cf">
+                    <div>
+                        <label for="lab1">手机号</label>
+                        <input type="text" name="mobile" id="reg_mobile_" class="nreg_input" valid="Mobile" placeholder="请输入您的手机号码">
+                    </div>
+                    <div class="cf">
+                           <div class="fl">
+                            <label for="lab2">验证码</label>
+                            <input type="text" name="reg_checkcode" id="code2_" class="nreg_sinput" maxlength="4" valid="IdentifyCode" style="width: 128px">
+                        </div>
+                            <img src="./images/yanz.png" alt="" class="fl">
+                    </div>
+                   
+                    <div class="cf">
+                            <div class="fl">
+                            <label for="lab3">短信验证码</label>
+                            <input type="text" name="mobilecode" id="reg_mobile_code_" class="nreg_sinput" valid="MsgIdentifyCode" style="width: 155px;">
+                             </div>  
+                            <span class="fl">短信验证</span>
+                    </div>
+                    <div>
+                            <label for="lab5">密码</label>
+                            <input type="password" name="password1" id="reg_password_" class="nreg_input" maxlength="25" valid="Password" placeholder="字母、数字、符号均可，6-25个字符以内">
+                    </div>
+                    <p>
+                            <input type="checkbox" id="rules" name="rules" style="margin-top:0" checked="checked">
+                            <label style="padding-left:3px" for="rules">我已阅读并同意<a href="http://www.yougou.com/help/registrationagreement.html" class="Red undline" target="_blank">《优购会员注册协议》</a></label>
+                    </p>
+                    <input type="submit" title="立即注册" value="确认并注册" id="reg_buton">
+                </div>
+            </div>
+        </div>
+
+        <div class="banner_p">
+            <p>Copyright © 2011-2014 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证：粤 B2-20090203</p>
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

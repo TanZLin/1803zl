@@ -1,0 +1,175 @@
+.login{
+    height: 100%;
+    width: 100%;
+}
+/* 头部部分样式 */
+.top_nav{
+    border: 1px solid #ccc;
+    background: #F3F3F5;
+}
+.top_nav .w{
+    height: 30px;
+}
+.top_nav .top_navtl li{
+    border-right:1px solid #ccc;
+    font-size:14px;
+}
+.top_nav .top_navtl li:hover a{
+    color:#E60012;
+}
+.top_nav .top_navtr li:hover a{
+    color:#E60012;
+}
+.top_nav .top_navtl li:nth-child(1){
+    border-left:1px solid #ccc;
+    background:#fff;
+}
+.top_nav .top_navt li{
+    text-align:center;
+    line-height:20px;
+    padding:5px;
+  
+}
+.zhuce{
+    height: 42px;
+    padding:13px 0;
+}
+.zhuce img{
+    width: 150px;
+    height: 32px;
+    padding-right:20px;
+    border-right:1px solid #ccc;
+}
+.zhuce span{
+    display:block;
+    width: 90px;
+    height: 40px;
+    line-height:40px;
+    text-align:center;
+    font-size:16px;
+    padding-left:20px;
+    color:#666;
+    font-weight:bold;
+}
+.aboutuser{
+    padding:5px;
+}
+.aboutuser span{
+    display:inline-block;
+    line-height:20px;
+    width:50px;
+    color: #E60012;
+}
+.aboutuser span:nth-child(2){
+    border-right:1px solid #ccc;
+}
+.top_navtl li a{
+    display:block;
+    width: 98px;
+    color:#666666;
+}
+.top_navtr li a{
+    padding:8px;
+    color:#666666;
+}
+
+/*登陆*/
+.banner{
+    background-image: url(../images/beijing.jpg);
+    box-sizing:100%;
+    background-repeat:no-repeat;
+    height: 553px;
+    width: 100%;
+    /* background:#669; */
+    position:relative;
+
+}
+.banner .banner_lg{
+    width: 378px;
+    height: 450px;
+    background: #fff;
+    position: absolute;
+    right:60px;
+    top:20px;
+}
+.banner_lgs{
+    text-align: center;
+    padding-left:16px;
+    padding-top:20px;
+}
+
+.banner_lgd{
+    width: 338px;
+    height:360px;
+    padding-left: 18px;
+    box-sizing:border-box;
+}
+.banner_lgd p{
+    height: 17px;
+    margin-left:246px;
+    text-decoration:underline;
+}
+
+.banner_lgs span{
+    display:block;
+    width: 174px;
+    height: 40px;
+    line-height:40px;
+    color: #fff;
+    font-size:16px;
+    
+}
+.banner_lgs span:nth-child(1){
+    background:#000;
+}
+.banner_lgs span:nth-child(2){
+    background:#ccc;
+}
+.nreg_input {
+    border: 1px solid #e3e2e2;
+    box-sizing: border-box;
+    height: 38px;
+    width:314px;
+    margin-top:30px;;
+    
+}
+.nreg_input_bg, .nreg_input_hoverbg {
+    width: 313px;
+    height: 47px;
+    margin-left: 1px;
+    float: left;
+    position: relative;
+}
+.btn{
+    height: 38px;
+    width:314px;
+    background:#E60012;
+    color:#fff;
+    margin-top:30px;
+    font-size:16px;
+    
+
+}
+.banner_p p{
+text-align:center;
+font-size:14px;
+height: 40px;
+}
+.banner_lgd span{
+    display:block;
+    width: 310px;
+    height: 47px;
+    text-align:center;
+    line-height:47px;
+    font-size:14px;
+    color:#666;
+}
+.icon{
+    text-align:center;
+    margin-top:20px;
+}
+.icon i{
+    font-size:30px;
+
+    padding-right:6px;
+}

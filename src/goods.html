@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/goods.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-1.8.2.min.js"></script>
+    <script src="../js/jquery.colorbox-min.js"></script>
+    <script src="../js/httpclient.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/goods.js"></script>
+
+
+
+</head>
+
+<body>
+    <!-- 详情页 -->
+    <div class="tzl_yougou">
+        <!-- 头部部分 -->
+        <div class="top_nav">
+            <div class="w">
+                <div class="cf top_navt">
+                    <ul class="cf fl top_navtl">
+                        <li class="fl">
+                            <a href="">时尚商城</a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <i class="iconfont icon-shouji"></i>手机优购</a>
+                        </li>
+                        <li class="fl">
+                            <a href="">
+                                <i class="iconfont icon-daodiantiyan"></i>体验新版</a>
+                        </li>
+                    </ul>
+                    <ul class="cf fr top_navtr">
+                        <div class="fl aboutuser">
+                            <span class="login_top">登陆</span>
+                            <span class="zhuce_top">注册</span>
+                        </div>
+                        <li class="fl">
+                            <a href="">我的优购
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">我的订单
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">公告
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                        <li class="fl">
+                            <a href="">更多
+                                <i class="iconfont icon-xiala"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- 搜索部分 -->
+        <div class="logo_tab">
+            <div class="w cf">
+                <div class="fl logo_t">
+                    <img src="./images/logo_n.jpg" alt="">
+                </div>
+                <div class="fl logo_c">
+                    <div class="logo_ct cf">
+                        <input type="text" placeholder="卫衣">
+                        <button class="fr">
+                            <i class="iconfont icon-fangdajing"></i>搜索</button>
+                    </div>
+                    <div class="logo_cb">
+                        <ul class="cf">
+                            <li class="fl">
+                                <a href="">运动18年新款</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">18年凉鞋新品</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">小白鞋</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">卫衣</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">专柜同款</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">跑步鞋</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">T恤</a>
+                            </li>
+                            <li class="fl"> |
+                                <a href="">运动裤</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="fr logo_r">
+                    <div class="fr logo_rl">
+                        <i class="iconfont icon-gouwuche"></i>
+                        <span>
+                            购物车（
+                            <span class="logo_rlspan">0</span>）件
+                        </span>
+                        <i class="iconfont icon-xiala"></i>
+                    </div>
+                    <p>百丽国际旗下购物网站</p>
+
+                </div>
+            </div>
+        </div>
+        <!-- 导航栏 -->
+        <div class="navLan">
+            <div class="w">
+                <div class="fl nav_left">
+                    <ul class="cf nav_leftul">
+                        <li class="fl fristNavLi">
+                            <span>全部商品收搜</span>
+                            <ul>
+                                <li>
+                                    <div>
+                                        <i class="iconfont icon-gaogenxie"></i>女鞋</div>
+                                    <p>时尚凉鞋 专柜同款</p>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="iconfont icon-xiezi"></i>男鞋</div>
+                                    <p>时尚男鞋 专柜同款</p>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="iconfont icon-star"></i>户外</div>
+                                    <p>户外服 户外包配 户外鞋</p>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="iconfont icon-xiezi1"></i>运动</div>
+                                    <p>新品上市 T恤 运动鞋</p>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="iconfont icon-yundongxie"></i>童装 /童鞋</div>
+                                    <pT恤 裤装 跑步鞋p>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="iconfont icon-baobao"></i>箱包 / 配饰</div>
+                                    <p>女包 男包 饰品</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="fl">运动馆</li>
+                        <li class="fl">鞋靴馆</li>
+                        <li class="fl">儿童馆</li>
+                        <li class="fl ">优惠券</li>
+                    </ul>
+                </div>
+                <div class="nav_right fr">
+                    秒杀
+                </div>
+            </div>
+        </div>
+
+        <!-- 分类 -->
+        <div class="details">
+            <div class="w">
+                <div class="details_t">
+                    <span>您当前位置:</span>
+                    <a href="">首页></a>
+                    <a href="">女鞋></a>
+                    <a href="">女士凉鞋>
+                        <a>
+                            <a href="">纯凉鞋></a>
+                            <span>BASTO/百思图夏季专柜同款黑色羊绒皮流苏绑带一字女凉鞋TCT03BL7</span>
+                </div>
+                <div class="cf">
+                    <div class="con-FangDa fl" id="fangdajing">
+                        <div class="con-fangDaIMg">
+
+                        </div>
+
+                        <ul class="con-FangDa-ImgList">
+                            <!-- 图片显示列表 -->
+
+                        </ul>
+                    </div>
+                    <div class="goodscon fl">
+                        <h1 class="shangpnane">NIKE耐克2018年新款男子AS M NSW TEE ICON FUTURAT恤696708-104</h1>
+                        <p class="jianjie">精致闪钻搭配蝴蝶结，夹趾休闲凉拖，修饰腿型显脚白</p>
+                        <a href="" class="Belle">更多Belle/百丽商品>></a>
+                        <div class="jiage">
+                            <span class="price">￥</span>
+                            <span class="prime">￥</span>
+                        </div>
+                        <div class="countDown">
+                            <span>多买多折</span>
+                            <span>买一件享9.0折</span>
+                            <a href="">查看详情>></a>
+                        </div>
+                        <div>
+                            <span>商品评分 0.9分</span>
+                            <span>已有3分点评</span>
+                            <a href="" class="fr">在线咨询</a>
+                        </div>
+                        <div class="xiangqing">
+                            <p class="xiangqing_p1">
+                                <span>颜色</span>
+                                <span>
+                                    <img src="./images/xiao1.jpg" alt="">
+                                    <img src="./images/xiao2.jpg" alt="">
+                                </span>
+                            </p>
+                            <p class="xiangqing_p2">
+                                <span>尺码</span>
+                                <span class="xiangqing_p2span">
+                                    <a href="javascript:;" class="tabe">34</a>
+                                    <a href="javascript:;" class="tabe">35</a>
+                                    <a href="javascript:;" class="tabe">36</a>
+                                    <a href="javascript:;" class="tabe">37</a>
+                                    <a href="javascript:;" class="tabe">38</a>
+                                    <a href="javascript:;" class="tabe">39</a>
+                                </span>
+                            </p>
+                            <p class="xiangqing_p3">
+                                <span>数量</span>
+                                <a href="javascript:;" class="xiangqing_a1">-</a>
+                                <input type="text" value="1" class="xiangqing_input">
+                                <a href="javascript:;" class="xiangqing_a2">+</a>
+                                <span>已选择</span>
+                                <span>枪色</span>
+                            </p>
+                            <div class="xiangqing_p4 cf">
+                                <div class="fl">
+                                    <button class="goumai">立即购买</button>
+                                    <button class="car">加入购物车</button>
+                                </div>
+                                <div class="fl">
+                                    <p>扫一扫</p>
+                                    <p>加入购物车</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="fwcn">
+                            <p>本商品由品牌商直接发货</p>
+                            <ul class="cf">
+                                <li class="fl">服务承诺</li>
+                                <li class="fl">
+                                    <img src="./images/7.png">正品保证</li>
+                                <li class="fl">
+                                    <img src="./images/8.png">10天退换货</li>
+                                <li class="fl">
+                                    <img src="./images/9.png">10天补差价</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="miaosha fr">
+                        <span>看了有看- - - - </span>
+                        <ul class="miaoshaul"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- 浏览过的商品 -->
+        <div class="goodsTjCon">
+            <div class="w">
+                <h1>看过本商品的用户最终购买</h1>
+                <div class="proList">
+                    <ul class="proListul cf">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- 优购导购 -->
+        <div class="daogou w">
+            <h5>优购导购</h5>
+        </div>
+        <div class="yougou">
+            <div class="w">
+                <div class="yougou_logo">
+                    <div class="logo_pinpai yougou_logopp"></div>
+                    <div></div>
+                </div>
+                <div class="yougou_logoxi">
+                    <ul class="cf">
+                        <li class="fl">
+                            <div>
+                                <a href="" 潮流女鞋></a>
+                                <a href="">美靴上新</a>
+                                <a href=""> 专柜同款 </a>
+                                <a href=""> 短靴</a>
+                                <a href="">长靴</a>
+                                <a href="">绒里靴 </a>
+                                <a href="">更多>></a>
+                            </div>
+                        </li>
+                        <li class="fl">
+                            <div>
+                                <a href="" 潮流女鞋></a>
+                                <a href="">美靴上新</a>
+                                <a href=""> 专柜同款 </a>
+                                <a href=""> 短靴</a>
+                                <a href="">长靴</a>
+                                <a href="">绒里靴 </a>
+                                <a href="">更多>></a>
+                            </div>
+                        </li>
+                        <li class="fl">
+                            <div>
+                                <a href="" 潮流女鞋></a>
+                                <a href="">美靴上新</a>
+                                <a href=""> 专柜同款 </a>
+                                <a href=""> 短靴</a>
+                                <a href="">长靴</a>
+                                <a href="">绒里靴 </a>
+                                <a href="">更多>></a>
+                            </div>
+                        </li>
+                        <li class="fl">
+                            <div>
+                                <a href="" 潮流女鞋></a>
+                                <a href="">美靴上新</a>
+                                <a href=""> 专柜同款 </a>
+                                <a href=""> 短靴</a>
+                                <a href="">长靴</a>
+                                <a href="">绒里靴 </a>
+                                <a href="">更多>></a>
+                            </div>
+                        </li>
+                        <li class="fl">
+                            <div>
+                                <a href="" 潮流女鞋></a>
+                                <a href="">美靴上新</a>
+                                <a href=""> 专柜同款 </a>
+                                <a href=""> 短靴</a>
+                                <a href="">长靴</a>
+                                <a href="">绒里靴 </a>
+                                <a href="">更多>></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="w">
+                <div>
+                    <ul class="foodterTitle cf">
+
+                        <li class="fl cf">
+                            <img src="./images/7.png" alt="" class="fl">
+                            <span class="fl">正品
+                                <i>保证</i>
+                            </span>
+                        </li>
+                        <li class="fl cf">
+                            <img src="./images/8.png" alt="" class="fl">
+                            <span class="fl">正品
+                                <i>保证</i>
+                            </span>
+                        </li>
+                        <li class="fl cf">
+                            <img src="./images/9.png" alt="" class="fl">
+                            <span class="fl">正品
+                                <i>保证</i>
+                            </span>
+                        </li>
+                        <li class="fl cf">
+                            <img src="./images/7.png" alt="" class="fl">
+                            <span class="fl">正品
+                                <i>保证</i>
+                            </span>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="foodterList cf">
+                    <div class="lisItem fl">
+                        <ul class="foodterItem">
+                            <li>新手帮助</li>
+                            <li>交易条框协议</li>
+                            <li>注册新用户</li>
+                            <li>会员积分详情</li>
+                        </ul>
+                    </div>
+                    <div class="lisItem fl">
+                        <ul class="foodterItem">
+                            <li>新手帮助</li>
+                            <li>交易条框协议</li>
+                            <li>注册新用户</li>
+                            <li>会员积分详情</li>
+                        </ul>
+                    </div>
+                    <div class="lisItem fl">
+                        <ul class="foodterItem">
+                            <li>新手帮助</li>
+                            <li>交易条框协议</li>
+                            <li>注册新用户</li>
+                            <li>会员积分详情</li>
+                        </ul>
+                    </div>
+                    <div class="lisItem fl">
+                        <ul class="foodterItem">
+                            <li>新手帮助</li>
+                            <li>交易条框协议</li>
+                            <li>注册新用户</li>
+                            <li>会员积分详情</li>
+                        </ul>
+                    </div>
+                    <div class="lisItem fl">
+                        <div>优购服务</div>
+                        <div class="cf">
+                            <img src="./images/7.png" alt="" class="fl">
+                            <span class="fl">在线咨询</span>
+
+                        </div>
+                        <div>
+                            Email:ygservicelle.com.cn
+
+                        </div>
+                        <div>
+                            微信客服：优购时尚商城
+
+                        </div>
+                    </div>
+                    <div class="lisItem fl">
+                        <img src="./images/1.png" alt="">
+                    </div>
+                    <div class="lisItem fl">
+                        <img src="./images/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="dibuss">
+            <div class="dibt">关于优购 | 集团采购 | 招贤纳士 | 手机优购 | 联系我们 | 友情链接 </div>
+            <div class=" cf">
+                <div class="fl">
+                    <img class="yougouLogo" src="./images/2.png" alt="">
+                </div>
+                <div class="fl">
+                    <div>Copyright © 2011-2016 Yougou Technology Co., Ltd. 粤ICP备09070608号-4 增值电信业务经营许可证： 粤 B2-20090203 深公网安备：4403101910665
+                        粤公网安备 44030502000017号</div>
+                    <div class="cf">
+                        <img src="./images/6.png" alt="" class="fr">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
